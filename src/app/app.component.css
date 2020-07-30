@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box; 
+}
+
+.todo {
+    padding: 10px;
+}
+
+li {
+    list-style: none;
+    align-items: center;
+    display: flex;
+    justify-items: center;
+    justify-content: space-around;
+    align-content: space-around;
+    position: relative;
+
+}
+
+.delete {
+    position: relative;
+    margin: auto;
+    justify-content: flex-end;
+}
+
+button {
+    margin: 5px;
+}
